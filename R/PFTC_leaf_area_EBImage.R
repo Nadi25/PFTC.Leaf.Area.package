@@ -1,4 +1,11 @@
-
+#' Calculate leaf area from a folder of jpeg images
+#'
+#' @param folder_path Path to the folder containing JPEG images
+#' @param output_folder Path to the folder where output files will be saved
+#' @param method Method for thresholding (default is "Otsu")
+#'
+#' @return A data frame containing the results of leaf area calculation
+#' @export
 #' @import EBImage
 #' @import purrr
 
