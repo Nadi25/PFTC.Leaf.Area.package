@@ -1,8 +1,7 @@
 
+#' @import EBImage
+#' @import purrr
 
-# load library ------------------------------------------------------------
-library(EBImage)
-library(purrr)
 
 
 # function to calculate leaf area from a folder of jpeg images ------------
